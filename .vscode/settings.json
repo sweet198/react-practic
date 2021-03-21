@@ -1,0 +1,8 @@
+{
+    "beautify.config": {
+        "tab_size": 2
+    },
+    "eslint.codeAction.showDocumentation": {
+        "ecmaVersion": 2018
+    }
+}

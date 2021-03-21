@@ -1,0 +1,32 @@
+.programming-section {
+    background-color: rgb(189, 174, 174);
+}
+
+.programming-section ul {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.programming-section li {
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 10px;    
+}
+
+.programming-section li:hover,
+.programming-section li:focus {
+    animation-name: scale2;
+  	animation-duration: 0.2s;
+  	animation-fill-mode: forwards;
+}
+
+.programming-section span {
+    display: block;
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.programming-section h3 {
+    color: white;
+}

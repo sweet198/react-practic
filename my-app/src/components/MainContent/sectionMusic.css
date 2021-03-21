@@ -1,0 +1,23 @@
+.music-section ul {    
+    display: flex;
+    justify-content: space-around;
+}
+
+.music-section li {    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.music-section li:hover,
+.music-section li:focus {
+    animation-name: scale2;
+  	animation-duration: 0.2s;
+  	animation-fill-mode: forwards;
+}
+
+.music-section li:not(:last-child) {
+    margin-right: 20px;
+}
+

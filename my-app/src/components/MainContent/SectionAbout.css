@@ -1,0 +1,25 @@
+.about-section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;     
+    padding: 20px;
+}
+
+.about-section li {
+    width: 40%;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;    
+}
+
+.about-section li:hover,
+.about-section li:focus {
+    animation-name: scale2;
+  	animation-duration: 0.2s;
+  	animation-fill-mode: forwards;
+}
+
+.about-section img {
+    width: 90%;
+    border-radius: 10px;
+}

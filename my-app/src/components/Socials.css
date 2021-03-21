@@ -1,0 +1,12 @@
+.footer__socials {
+    padding: 30px;
+}
+.footer__socials ul {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;        
+}
+
+.footer__socials img {
+    width: 50px;
+}

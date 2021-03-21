@@ -1,0 +1,43 @@
+.header__logo {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.header__logo:hover,
+.header__logo:focus {
+    animation-name: scale2;
+  	animation-duration: 0.2s;
+  	animation-fill-mode: forwards;
+}
+
+.footer__logo {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    border: 2px solid red;
+    border-radius: 10px;    
+}
+
+.footer__logo:hover,
+.footer__logo:focus {
+    animation-name: scale2;
+  	animation-duration: 0.2s;
+  	animation-fill-mode: forwards;
+}
